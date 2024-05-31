@@ -82,10 +82,10 @@ let company2 = new Company('PizzaSud', 'artigianato', 'Abbiamo aperto più di 30
 
 participant1.subscribeCourse(course1)
 course1.addSubscriber(participant2)
-console.log(`course1 subscribers: ${course1.subscribers.map((el) => {return ` ${el.firstName} ${el.lastName}`})}`)
+console.log(`course1 subscribers: ${course1.subscribers.map((el) => ` ${el.firstName} ${el.lastName}`)}`)
 
 participant3.subscribeCourse(course2)
-console.log(`course2 subscribers: ${course2.subscribers.map((el) => {return ` ${el.firstName} ${el.lastName}`})}`)
+console.log(`course2 subscribers: ${course2.subscribers.map((el) => ` ${el.firstName} ${el.lastName}`)}`)
 
 company1.offerPosition(participant1, company1.openPositions[0])
 company1.offerPosition(participant2, company1.openPositions[0])
