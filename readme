@@ -22,3 +22,5 @@ tsc app.ts
 Run the application:
 Run the command:
 node app.js
+
+The names of people and companies used in the examples are fictitious, any reference to any real people and companies is purely coincidental.
